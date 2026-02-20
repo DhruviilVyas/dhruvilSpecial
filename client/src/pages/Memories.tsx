@@ -76,7 +76,7 @@ export default function Memories() {
   const displayMemories = (memories && memories.length > 0) ? memories : [
     {
       id: 1,
-      url: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&q=80",
+      url: "/b1.png",
       type: "image",
       caption: "The way you smile",
       date: "Always",
@@ -84,7 +84,7 @@ export default function Memories() {
     },
     {
       id: 2,
-      url: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=800&q=80",
+      url: "/b2.png",
       type: "image",
       caption: "Beautiful moments",
       date: "Spring 2023",
@@ -92,7 +92,7 @@ export default function Memories() {
     },
     {
       id: 3,
-      url: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=800&q=80",
+      url: "/b1.png",
       type: "image",
       caption: "Never letting go",
       date: "Forever",
@@ -100,26 +100,26 @@ export default function Memories() {
     },
     {
       id: 4,
-      url: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=800&q=80",
+      url: "/b2.png",
       type: "image",
-      caption: "Chasing sunsets",
+      caption: "Dream Girll",
       date: "Summer Vacation",
       rotation: 2
     },
     {
       id: 5,
-      url: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=800&q=80",
+      url: "/b1.png",
       type: "image",
-      caption: "Surprises",
+      caption: "Surprises i want to give you",
       date: "Your Birthday",
       rotation: 5
     },
     {
       id: 6,
-      url: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&q=80",
+      url: "/b2.png",
       type: "image",
       caption: "Coffee dates",
-      date: "Every Weekend",
+      date: "Every Weekend if you say yes",
       rotation: -3
     }
   ];
@@ -198,7 +198,7 @@ export default function Memories() {
               transition={{ duration: 3, repeat: Infinity }}
               className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-handwriting text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-pink-600 to-purple-600 leading-tight px-4"
             >
-              Our Memory Lane
+              Your Memory picture
             </motion.h1>
 
             <motion.p
@@ -207,7 +207,7 @@ export default function Memories() {
               transition={{ duration: 0.7, delay: 0.5 }}
               className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 font-serif italic max-w-2xl mx-auto px-4"
             >
-              Captured moments that tell our beautiful story
+             jyada yaad nahi hai mujhe, bas itna yaad hai ki tumhari tasveer dekh ke mujhe ek ajeeb si khushi hoti hai, jaise ki duniya thodi aur khoobsurat lagti hai.
             </motion.p>
           </motion.div>
 

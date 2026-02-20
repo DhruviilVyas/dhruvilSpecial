@@ -67,7 +67,7 @@ export default function FinalNote() {
     window.scrollTo({ top: 0, behavior: "instant" });
   }, []);
 
-  const fullText = "Loving you is not something I do—it's who I am. In every breath, every silence, every tomorrow, it's you. Happy Valentine's Day to the one my heart chose long before I ever understood love.";
+  const fullText = "Loving you is not something I do—its who I am. In every breath, every silence, every tomorrow, its you. the one my heart chose long before I ever understood love.";
 
   // Optimized typing effect
   useEffect(() => {
@@ -223,7 +223,7 @@ export default function FinalNote() {
               >
                 <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-pink-400/60" />
                 <span className="font-serif text-xs sm:text-sm text-gray-500 italic">
-                  Valentine's Day {new Date().getFullYear()}
+                  Dhruvil {new Date().getFullYear()}
                 </span>
               </motion.div>
             </motion.div>
@@ -262,7 +262,7 @@ export default function FinalNote() {
             transition={{ duration: 2.5, repeat: Infinity }}
             className="font-handwriting text-base sm:text-lg md:text-xl text-pink-600"
           >
-            Happy Valentine's Day ♡
+           ♡
           </motion.p>
           
           <p className="text-xs sm:text-sm text-gray-500 italic">

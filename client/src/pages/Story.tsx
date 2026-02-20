@@ -219,23 +219,23 @@ export default function Story() {
   const sortedStory = [
     {
       id: 1,
-      title: "The First Glance",
-      content: "From the moment our eyes met, I knew there was something extraordinary about you. Time seemed to stand still, and in that instant, everything changed.",
-      imageUrl: "https://images.unsplash.com/photo-1627964464837-6328f5931576?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y291cGxlc3xlbnwwfHwwfHx8MA%3D%3D",
+      title: "The First Time",
+      content: "pehli bar mene tuje jab dekha tab muje ek boht pyari ladki dikhi,Uski wo pyari aankhein,Uska wo muskurana.",
+      imageUrl: "/b1.png",
       order: 1
     },
     {
       id: 2,
-      title: "Growing Closer",
-      content: "Every conversation, every shared laugh, every quiet moment together brought us closer. I found myself looking forward to seeing you, thinking about you constantly.",
-      imageUrl: "https://images.unsplash.com/photo-1501901609772-df0848060b33?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y291cGxlc3xlbnwwfHwwfHx8MA%3D%3D",
+      title: "Stalking",
+      content: "Ek Din achanak se ek notification aati hai insta me Vibewith_era started following you, or ye wahi bachpan wala crush tha..,or phir mera boht mann hua kii tuj se baat kkaru,But how to start??...",
+      imageUrl: "b2.png",
       order: 2
     },
     {
       id: 3,
       title: "Falling Deeper",
-      content: "Somewhere along the way, friendship blossomed into something more. My heart would race at the sound of your voice, and your smile became my favorite sight.",
-      imageUrl: "https://images.unsplash.com/photo-1555689070-b25ef81cc3ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvdXBsZXN8ZW58MHx8MHx8fDA%3D",
+      content: "Somehow mene tuje bata hee diya ki I LIKE YOU,but tu abhi bhi isse majak mee legi ya phir tune ye sab padha hee nahi hoga😔.",
+      imageUrl: "/b1.png",
       order: 3
     },
   ];
@@ -316,7 +316,7 @@ export default function Story() {
               transition={{ duration: 0.7, delay: 0.3 }}
               className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 font-serif italic max-w-2xl mx-auto px-4"
             >
-              Every moment with you is a favorite memory waiting to be cherished forever.
+              Every moment to be with you is a favorite memory waiting to be cherished forever.
             </motion.p>
           </motion.div>
 
@@ -388,7 +388,7 @@ export default function Story() {
               transition={{ duration: 0.7, delay: 0.15 }}
               className="font-handwriting text-lg sm:text-xl md:text-2xl mb-3 text-pink-600"
             >
-              But wait, there's more to our story...
+              But wait, there&apos;s more to our story...
             </motion.p>
 
             <Link href="/memories">

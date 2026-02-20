@@ -58,7 +58,7 @@ export default function Surprise() {
   };
 
   const surpriseText = "You are the best gift I could ever ask for. Get ready for a special dinner tonight!";
-  const text = "Or replace this with your actual surprise coupon/message";
+  const text = "agar tune yaha tak padha hai to bas ek reply kar dena, kya me esa ek or banau jisme sirf teri pictures ho..";
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 relative overflow-hidden bg-gradient-to-br from-rose-50 via-pink-50 to-purple-50">
@@ -268,7 +268,7 @@ export default function Surprise() {
                   className="mt-8 text-center"
                 >
                   <p className="font-handwriting text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-rose-600">
-                    Tap to reveal your surprise
+                  Aana par click kar
                   </p>
                   <motion.div
                     animate={{

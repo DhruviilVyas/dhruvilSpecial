@@ -179,7 +179,7 @@ export default function Landing() {
             animate={{ opacity: [0.7, 1, 0.7] }}
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
           >
-            I've been carrying this in my heart for so long…
+            I&apos;ve been carrying this in my heart for so long…
           </motion.span>
 
           <motion.div
@@ -213,7 +213,7 @@ export default function Landing() {
             className="space-y-2"
           >
             <p className="text-sm sm:text-base md:text-lg text-rose-700/80 font-light italic leading-relaxed px-4">
-              Every moment since you walked into my life,
+             jab bhi tumhari tasveer dekhta hu,
               <br />
               <span className="text-pink-600/90">the universe feels a little more magical.</span>
             </p>
@@ -302,7 +302,7 @@ export default function Landing() {
             transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
             className="text-rose-600/80 font-handwriting text-base sm:text-lg"
           >
-            Click the heart when you're ready…
+            Click the &quot;heart&quot; when you're ready…
           </motion.p>
           
           <p className="text-pink-500/60 text-xs sm:text-sm italic">
